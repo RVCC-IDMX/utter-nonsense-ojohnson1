@@ -1,23 +1,16 @@
-@font-face {
-  font-family: "abhaya_libre";
-  src: url("../fonts/AbhayaLibre-Medium-webfont.woff") format("woff"),
-    font-weight;
-  font-weight: normal;
-  font-style: normal;
+body {
+  background-color: var();
 }
 
-@font-face {
-  font-family: "archisticobold";
-  src: url("../fonts/Archistico_Bold-webfont.woff") format("woff");
-
-  font-weight: bold;
-  font-style: bold;
+h1 {
+  font-family: archistico;
 }
 
 img {
-  max: width 100%;
+  max-width: 500px;
+  max-height: 500px;
 }
 
-.stanza-line {
-  font-family: "abhaya_libre";
+.poem p {
+  font-family: abhaya libre;
 }
