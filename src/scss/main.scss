@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "abhaya_libre";
+  src: url("../fonts/AbhayaLibre-Medium-webfont.woff") format("woff"),
+    font-weight;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "archisticobold";
+  src: url("../fonts/Archistico_Bold-webfont.woff") format("woff");
+
+  font-weight: bold;
+  font-style: bold;
+}
+
+img {
+  max: width 100%;
+}
+
+.stanza-line {
+  font-family: "abhaya_libre";
+}
