@@ -1,10 +1,7 @@
 @use "../../node_modules/open-props/open-props.min.css";
 @use "../../node_modules/open-props/normalize.min.css";
-// @use "../scss/components/image.scss";
-// @use "../scss/base/typography.scss";
-// @use "../scss/layout/body.scss";
-// @use "../scss/components/article.scss";
+
+@use "./components/article";
 @use "./components/image";
 @use "./base/typography";
 @use "./layout/body";
-@use "./components/article";
