@@ -1,14 +1,10 @@
 @font-face {
-  font-family: "yrsa";
-  src: url("../fonts/Yrsa-Italic-VariableFont_wght.ttf"), format(truetype);
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'yrsa';
+  src: url('../fonts/Yrsa-Italic-VariableFont_wght.ttf');
+  font-weight: 300 700;
 }
-
 @font-face {
-  font-family: "cinzel";
-  src: url("../fonts/Cinzel-VariableFont_wght.ttf") format(truetype);
-
-  font-weight: bold;
-  font-style: bold;
+  font-family: 'cinzel';
+  src: url('../fonts/Cinzel-VariableFont_wght.ttf');
+  font-weight: 400 900;
 }
