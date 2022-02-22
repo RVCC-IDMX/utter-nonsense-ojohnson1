@@ -1,11 +1,32 @@
+@use "../../../node_modules/open-props/open-props.min.css";
+@use "../../../node_modules/open-props/normalize.min.css";
 @use "../base/typography.scss";
 
 body {
-  color: var(--green-5);
+  background-color: var(--green-9);
 }
-h1,
-h2,
-h3 {
+
+.header {
   font-family: "cinzel";
-  color: #dedca0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    color: #dedca0;
+  }
+
+  &__subtitle {
+    color: #dedca0;
+  }
+  &__author {
+    color: #dedca0;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
 }
