@@ -1,1 +1,11 @@
-   
+@use "../base/typography.scss";
+
+body {
+  color: var(--green-9);
+}
+h1,
+h2,
+h3 {
+  font-family: "cinzel";
+  margin-inline-start: 3rem;
+}
