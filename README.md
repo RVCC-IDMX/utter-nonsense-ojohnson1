@@ -1,6 +1,6 @@
 # Utter Nonsense Assignment
 
-<p>This assignment is use tot est the skills that we have practice thus far in the semester. Those skills included</p>
+<p>This assignment is use to test the skills that we have practice thus far in the semester. Those skills included</p>
 
 1. Installing Sass and Creating .scss files
 2. Installing Parcel
